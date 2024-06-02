@@ -1,0 +1,9 @@
+def create-Alert(patient_info)
+    if patient-info['temperature']>100.4
+    
+        send-Nnotification("High Temperature Alert", "Patient ID: " + patient- info['id'] + " has a high temperature.")
+        
+    if patient-info['heart_rate']>100
+    
+    send_notification("High Heart Rate Alert", "Patient ID: " + patient- info['id'] +" has a high heart rate.")
+    
